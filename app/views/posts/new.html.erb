@@ -1,0 +1,13 @@
+<div class="span12">
+  <%= simple_form_for [@group, @post] do |f| %>
+    <%= f.input :content, :input_htmal => { :class => "input-xxlarge"} %>
+
+    <div class="form_actions">
+      <%= f.submit "Submit", :disable_with => 'Submiting...', :class => "btn btn-primary" %>
+    </div>
+
+  <% end %>
+
+
+
+</div>
